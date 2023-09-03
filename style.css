@@ -273,7 +273,7 @@ input .umasenha i{
     justify-content: center;
 }
 .headerr{
-    background-color: #000;
+    background-color: #222222;
     width: 100%;
     padding: 10px;
 }
@@ -535,6 +535,11 @@ section.Meio .flex-meio .txt-meio p{
 .txt-prof h1{
     color: #ffffff;
     position: relative;
+    background: linear-gradient(45deg,rgb(255, 165, 232), rgb(146, 200, 255), rgb(72, 69, 255) );
+    background-size: 400% 100%;
+    animation: degrade-animado 2s infinite alternate;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .txt-prof h1 samp{
     color: dodgerblue;
@@ -547,15 +552,27 @@ section.Meio .flex-meio .txt-meio p{
     left: 50%;
     transform: translate(-50%,-50%);
     padding: 50px;
-    border-radius: 15px;
+    border-radius: 40px;
     color: white;
+    cursor: pointer;
+}
+.David .txt-David h1{
+    background: linear-gradient(45deg,rgb(255, 165, 232), rgb(80, 80, 80), rgb(61, 61, 61) );
+    background-size: 400% 100%;
+    position: relative;
+    left: 63px;
+    animation: degrade-animado 2s infinite alternate;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: cursive;
 }
 .David h1{
     position: relative;
     left: 63px;
     color: #fff;
+    font-family: cursive;
 }
-.Thiago{
+.Tiago{
     background-color: rgba(201, 201, 201, 0.6);
     position: absolute;
     border: 2px solid dodgerblue;
@@ -563,10 +580,21 @@ section.Meio .flex-meio .txt-meio p{
     right: 54%;
     transform: translate(-50%,-50%);
     padding: 50px;
-    border-radius: 15px;
+    border-radius: 40px;
     color: white;
+    cursor: pointer;
 }
-.foto-prof-Thiago{
+.Tiago .txt-tiago h1{
+    background: linear-gradient(45deg,rgb(255, 165, 232), rgb(80, 80, 80), rgb(61, 61, 61) );
+    background-size: 400% 100%;
+    position: relative;
+    left: 63px;
+    animation: degrade-animado 2s infinite alternate;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: cursive;
+}
+.foto-prof-Tiago{
     width: 208px;
     height: 208px;
     background-image: url(Design\ sem\ nome\ \(1\).png);
@@ -576,21 +604,38 @@ section.Meio .flex-meio .txt-meio p{
     cursor: pointer;
     transition: 4s ;
 }
-.foto-prof-Thiago:hover{
+.foto-prof-Tiago:hover{
     background-position: 100% 100%;
 }
-.Glaciane{
+.Gleciane{
     background-color: rgba(201, 201, 201, 0.6);
     position: absolute;
     border: 2px solid dodgerblue;
     top: 50%;
-    left: 290%;
-    transform: translate(-50%,-50%);
+    left: 192%;
+    transform: translate(+50%,-50%);
     padding: 50px;
-    border-radius: 15px;
-    color: white;   
+    border-radius: 40px;
+    color: white;
+    cursor: pointer;   
 }
-.foto-prof-Glaciane{
+.Gleciane h1{
+    position: relative;
+    left: 43px;
+    color: #fff;
+    font-family: cursive;
+}
+.Gleciane .txt-Gleciane h1{
+    background: linear-gradient(45deg,rgb(255, 165, 232), rgb(80, 80, 80), rgb(61, 61, 61) );
+    background-size: 400% 100%;
+    position: relative;
+    left: 49px;
+    animation: degrade-animado 2s infinite alternate;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: cursive;
+}
+.foto-prof-Gleciane{
     width: 208px;
     height: 208px;
     background-image: url(Design\ sem\ nome\ \(1\).png);
@@ -600,6 +645,99 @@ section.Meio .flex-meio .txt-meio p{
     cursor: pointer;
     transition: 4s ;
 }
-.foto-prof-Glaciane:hover{
+.foto-prof-Gleciane:hover{
     background-position: 100% 100%;
+}
+.foto-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1d1d1d;
+    padding: 314px;
+}
+.foto-Odair{
+    width: 208px;
+    height: 208px;
+    background-image: url(Design\ sem\ nome\ \(1\).png);
+    background-size: cover;
+    background-position: 100% 0%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 4s ;
+}
+.Odair h1{
+    background: linear-gradient(45deg,rgb(255, 165, 232), rgb(80, 80, 80), rgb(61, 61, 61) );
+    background-size: 400% 100%;
+    position: relative;
+    left: 63px;
+    animation: degrade-animado 2s infinite alternate;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: cursive;
+}
+.Odair{
+    background-color: rgba(201, 201, 201, 0.6);
+    position: absolute;
+    border: 2px solid dodgerblue;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 50px;
+    border-radius: 40px;
+    color: white;
+    cursor: pointer;
+    }
+.foto-Odair:hover{
+    background-position: 100% 100%;
+}
+.foto-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1d1d1d;
+    padding: 314px;
+}
+.foto-viviane{
+    width: 208px;
+    height: 208px;
+    background-image: url(Design\ sem\ nome\ \(1\).png);
+    background-size: cover;
+    background-position: 100% 0%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 4s ;
+}
+.Viviane h1{
+    background: linear-gradient(45deg,rgb(255, 165, 232), rgb(80, 80, 80), rgb(61, 61, 61) );
+    background-size: 400% 100%;
+    position: relative;
+    left: 63px;
+    animation: degrade-animado 2s infinite alternate;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: cursive;
+}
+.Viviane{
+    background-color: rgba(201, 201, 201, 0.6);
+    position: absolute;
+    border: 2px solid dodgerblue;
+    top: 110%;
+    left: 26%;
+    transform: translate(-50%,-50%);
+    padding: 50px;
+    border-radius: 40px;
+    color: white;
+    cursor: pointer;
+    }
+.foto-viviane:hover{
+    background-position: 100% 100%;
+}
+::-webkit-scrollbar{
+    background: #1d1d1d;
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: dodgerblue;
+    border-radius: 10px;
+    border: 2px solid #98a7ffb7;
 }
