@@ -1,10 +1,10 @@
 let musicas = [
-    { titulo:'Deixe me ir', artista:'Baviera, Knust e Pablo Martins', scr:('musicas/deixe-me ir - speed up (online-audio-converter.com).mp3'),
-    img:'imagenss/Deixemeir.jpg'},
-    { titulo:'Mas Existe Um Lugar', artista:'Manoel Gomes, Cryzin e Kaio Viana', scr:('musicas/Cryzin, Manoel Gomes, Kaio Viana - Mas Existe Um Lugar (Remix) (online-audio-converter.com) (1).mp3'),
-    img:'imagenss/Sdds.jpg'},
-    { titulo:'CORINGA', artista:'Jão', scr:('musicas/Jão - CORINGA (online-audio-converter.com).mp3'),
-    img:'imagenss/jao.jpg'}
+   {titulo:'Deixe me ir', artista:'Baviera, Knust e Pablo Martins', scr:'musicas/deixe-me ir - speed up (online-audio-converter.com).mp3',
+   img:'imagenss/Deixemeir.jpg'},
+   {titulo:'Mas Existe Um Lugar', artista:'Manoel Gomes, Cryzin e Kaio Viana', scr:'musicas/Cryzin, Manoel Gomes, Kaio Viana - Mas Existe Um Lugar (Remix) (online-audio-converter.com) (1).mp3',
+   img:'imagenss/Sdds.jpg'},
+   {titulo:'CORINGA', artista:'Jão', scr:'musicas/Jão - CORINGA (online-audio-converter.com).mp3',
+   img:'imagenss/jao.jpg'}
 ];
 
 let musica = document.querySelector('audio');
@@ -19,7 +19,7 @@ let nameMusic = document.querySelector('.descricao h2');
 
 let nomeArtista = document.querySelector('.descricao i');
 
-rederizarMusica(musicasIndex);
+renderizarMusica(indexMusica);
 
 // Eventos
 
@@ -31,15 +31,21 @@ musica.addEventListener('timeupdate', atBarra);
 
 document.querySelector('.voltar').addEventListener('click', () => {
    indexMusica--;
-   rederizarMusica(indexMusica);
+   if (indexMusica < 0) {
+      indexMusica = 2;
+  }
+   renderizarMusica(indexMusica);
 });
 document.querySelector('.proxima').addEventListener('click', () => {
    indexMusica++;
-   rederizarMusica(indexMusica);
+   if (indexMusica > 2){
+       indexMusica = 0;
+   }
+   renderizarMusica(indexMusica);
 });
 
 //funções
-function rederizarMusica(index){
+function renderizarMusica(index){
    musica.setAttribute('scr', musicas[index].scr);
    musica.addEventListener('loadeddata', () => {
       nameMusic.textContent = musicas[index].titulo;
@@ -69,12 +75,13 @@ function atBarra(){
 }
 
 function segundosParaMinutos(segundos){
-   let campoMinutos = Math.floor(segundos /60);
+   let campoMinutos = Math.floor(segundos / 60);
    let campoSegundos = segundos % 60;
    
    if(campoSegundos < 10 ){
       campoSegundos = '0' +campoSegundos
    }
+   
    return campoMinutos+':'+campoSegundos
 }
 
