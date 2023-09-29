@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 .fundo2 {
     width: 100%;
     height: 100%;
@@ -278,13 +279,13 @@ input .umasenha i{
     padding: 10px;
 }
 .logo,.sociais{
-    width: 25%;
+    width: 20%;
 }
 .logo img {
     width: 100px;
 }
 .menu{
-    width: 50%;
+    width: 70%;
 }
 .menu nav a{
     color: #d9fffd;
@@ -299,7 +300,8 @@ input .umasenha i{
     content: " ";
     width: 0px;
     height: 4px;
-    background-image: linear-gradient(45deg, dodgerblue, rgb(61, 61, 255));
+    background-image: linear-gradient(45deg, green, rgb(0, 255, 34));
+    border-radius: 10px;
     position: absolute;
     top: 25px;
     left: 0;
@@ -311,8 +313,8 @@ input .umasenha i{
 
 }
 .menu nav a:hover{
-    color: aqua;
-    text-shadow: 0 0 25px dodgerblue;
+    color: rgb(0, 201, 0);
+    text-shadow: 0 0 25px green;
 }
 .sociais button{
     width: 40px;
@@ -328,7 +330,7 @@ input .umasenha i{
     width: 40px;
     height: 40px;
     border-radius: 20px;
-    border: none;
+    border: 2px solid rgb(255, 95, 122);
     cursor: pointer;
     background-image: linear-gradient(45deg, yellow, rgb(255, 67, 76), rgb(253, 80, 224));
     background-size: 500% 100%;
@@ -338,7 +340,7 @@ input .umasenha i{
     width: 40px;
     height: 40px;
     border-radius: 20px;
-    border: none;
+    border: 2px solid dodgerblue;
     cursor: pointer;
     background-image: linear-gradient(45deg, rgb(0, 198, 248), dodgerblue, rgb(16, 0, 247));
     background-size: 500% 100%;
@@ -348,7 +350,7 @@ input .umasenha i{
     width: 40px;
     height: 40px;
     border-radius: 20px;
-    border: none;
+    border: 2px solid rgb(43, 43, 43);
     cursor: pointer;
     background-image: linear-gradient(45deg, rgb(53, 53, 53), rgb(37, 37, 37),rgb(107, 107, 107));
     background-size: 500% 100%;
@@ -867,4 +869,108 @@ i.setas{
     color: #fff;
     font-size: 30px;
     cursor: pointer;
+}
+:root{
+    --color-neutral-0: #000;
+    --color-neutral-10: #0e0e0e;
+    --color-neutral-20: #3a3a3a;
+    --color-neutral-30: #dfdfdf;
+}
+footer{
+    font-family: 'Merriweather', serif;
+    letter-spacing: 1px;
+    width: 100%;
+    color: var(--color-neutral-20);
+}
+.txt-socias{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 200px;
+    border: 2px solid green;
+    padding-right: 60px;
+    background-color: #0e0e0e;
+    box-shadow: rgba(0, 0, 0, 0.9) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.txt-socias p{
+    color: #fff;
+    font-family: 'Merriweather', serif;
+    position: relative;
+    top: 45px;
+}
+.txt-socias img{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 145%;
+    left: 35px;
+}
+.cap{
+    border-radius: 10px;
+    background-color: #1d1d1d;
+    color: var(--color-neutral-30);
+    width: 10%;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    top: 1285px;
+    right: 45%;
+    border: 2px solid green;
+}
+.sociaiss button{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 140%;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-image: linear-gradient(45deg, rgb(65, 255, 65), rgb(255, 67, 76), rgb(253, 80, 224));
+    background-size: 500% 100%;
+    animation: degrade-animado 5s infinite alternate;
+}
+.sociaiss button.ins{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid rgb(255, 95, 122);
+    cursor: pointer;
+    background-image: linear-gradient(45deg, yellow, rgb(255, 67, 76), rgb(253, 80, 224));
+    background-size: 500% 100%;
+    animation: degrade-animado 5s infinite alternate;
+}
+.sociaiss button.face{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid dodgerblue;
+    cursor: pointer;
+    background-image: linear-gradient(45deg, rgb(0, 198, 248), dodgerblue, rgb(16, 0, 247));
+    background-size: 500% 100%;
+    animation: degrade-animado 5s infinite alternate;
+}
+.sociaiss button.tt{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid rgb(43, 43, 43);
+    cursor: pointer;
+    background-image: linear-gradient(45deg, rgb(53, 53, 53), rgb(37, 37, 37),rgb(107, 107, 107));
+    background-size: 500% 100%;
+    animation: degrade-animado 5s infinite alternate;
+}
+.sociaiss button.tt i{
+    color: #ffffff;
+}
+.sociaiss button.face i {
+    color: #ffffff;
+}
+.sociaiss button.ins i{
+    color: #ffffff;
+}
+.sociaiss button i{
+    font-size: 20px;
+    color:  rgb(17, 17, 17);
 }
