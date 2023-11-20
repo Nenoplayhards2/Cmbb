@@ -1,11 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
-
 *{
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
 }
-
 body{
     background-size: 500% 100%;
     background-image: linear-gradient( 45deg, #9deee3, #f103e5, #11caf8 );
@@ -13,7 +9,6 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
 @keyframes degrade-animado{
     0%{
         background-position-x: 0%;
@@ -21,148 +16,40 @@ body{
     100%{
         background-position-x: 100%;
     }
-}
-@keyframes flutuar {
-    0%{
-        top: 0;
-    }
-    100%{
-        top: 50px;
-    }
+
 }
 .flex{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 200px;
-    width: 550px;
-    position: relative;
-    margin-top: 40vh;
-    margin-left: 70vh;
-}
-
-.relogio{
-    position: relative;
-    height: 170px;
-    width: 150px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    color: #fff;
-    background: rgba(5, 5, 5, .9);
-    box-shadow: 5px 5px 15px rgba(202, 53, 53, 1.5);
-    border-radius: 7px;
-    letter-spacing: 3px;
-    animation: flutuar 4s  ease-in-out infinite alternate;
-}
-
-.minutos{
-    position: relative;
-    height: 170px;
-    width: 150px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    background: rgba(5, 5, 5, .9);
-    box-shadow: 5px 5px 15px rgba(253, 0, 0, 1.7);
-    border-radius: 7px;
-    letter-spacing: 3px;
-    animation: flutuar 2s  ease-in-out infinite alternate;
-}
-
-.segundos{
-    position: relative;
-    height: 170px;
-    width: 150px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    background: rgba(5, 5, 5, .9);
-    box-shadow: 5px 5px 15px rgba(255, 0, 0, 2.7);
-    border-radius: 7px;
-    letter-spacing: 3px;
-    animation: flutuar 1s  ease-in-out infinite alternate;
-}
-
-footer{
-    font-family: 'Merriweather', serif;
-    letter-spacing: 1px;
     width: 100%;
-    position: absolute;
-    bottom: 0px;
-    color: var(--color-neutral-20);
-}
-.txt-socias p{
-    color: #fff;
-    font-family: 'Merriweather', serif;
-    position: relative;
-    top: 45px;
-}
-.txt-socias{
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    height: 200px;
-    border: 2px solid green;
-    padding-right: 60px;
-    background-color: #0e0e0e;
-
-}
-
-button.ins{
-    width: 40px;
-    height: 40px;
-    border: none;
-    border-radius: 20px;
-    color: #fff;
-    cursor: pointer;
-    background-image: linear-gradient(45deg, yellow, rgb(255, 67, 76), rgb(253, 80, 224));
-    background-size: 500% 100%;
-    animation: degrade-animado 5s infinite alternate;
-}
-
-button.face{
-    width: 40px;
-    height: 40px;
-    border: none;
-    border-radius: 20px;
-    color: #fff;
-    cursor: pointer;
-    background-image: linear-gradient(45deg, rgb(0, 198, 248), dodgerblue, rgb(16, 0, 247));
-    background-size: 500% 100%;
-    animation: degrade-animado 5s infinite alternate;
-}
-
-button.tt{
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    border: none;
-    color: #fff;
-    cursor: pointer;
-    background-image: linear-gradient(45deg, rgb(53, 53, 53), rgb(37, 37, 37),rgb(107, 107, 107));
-    background-size: 500% 100%;
-    animation: degrade-animado 5s infinite alternate;
-}
-.cap{
-    border-radius: 10px;
-    background-color: #1d1d1d;
-    color: #fff;
-    width: 20vh;
-    height: 5vh;
-    display: flex;
+    height: 100vh;
     align-items: center;
     margin: 0 auto;
-    justify-content: center;
-    border: 2px solid green;
+    display: flex;
 }
-.txt-socias img{
-    height: 10vh;
-    width: 10vh;
-    
+.relogio{
+    background-color: rgba(0, 0, 0, 0.582);
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid dodgerblue;
+}
+.minutos{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.582);
+    border: 2px solid dodgerblue;
+}
+.minutos.
+
+
+.segundos{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.582);
+    border: 2px solid dodgerblue;
 }
