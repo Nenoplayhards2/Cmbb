@@ -53,3 +53,978 @@ body{
     background-color: rgba(0, 0, 0, 0.582);
     border: 2px solid dodgerblue;
 }
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+.fundo2 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.Fundo video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    z-index: -100;
+}
+.Criar {
+    background-color: rgba( 0, 0, 0, 0.9);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 50px;
+    border-radius: 15px;
+    color: white;
+    border: 2px solid rgba(30, 143, 255, 0.623);
+}
+input{
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+.Btn1{
+    background: transparent;
+    border: 2px solid greenyellow;
+    color: greenyellow;
+    padding: 15px;
+    position: relative;
+    left: 10px;
+    width: 85%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.Btn1:hover{
+    box-shadow: greenyellow 0 0 15px, inset 0 0 15px greenyellow;
+    text-shadow: 0 0 15px greenyellow;
+}
+.Criar i{
+    font-size: 25px;
+    cursor: pointer;
+    position: absolute;
+    right: 28%;
+    top: 266px;
+    color: dodgerblue;}
+.Criar p{
+    color: #fff;
+    font-size: 18px;
+    position: relative;
+    left: 18px;
+}
+.Criar label{
+    position: relative;
+    right: 15px;
+
+}
+.Criar p label{
+    font-size: 15px;
+    
+}
+.Criar a{
+    color: dodgerblue;
+    text-decoration: none;
+    
+}
+.Criar h1{
+    font-size: 20px;
+}
+.Criar .CRIAR_conta{
+    font-size: 30px;
+    color: aqua;
+}
+.box p{
+    font-size: 17px;    
+}
+.box label{
+    position: relative;
+    right: 20px;
+    top: 19px;
+    padding: 2px;
+}
+.bg_video{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    }
+.banner video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    z-index: -100;
+    }
+.Login{
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    border: 2px solid dodgerblue;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 70px;
+    border-radius: 15px;
+    color: white;
+    }
+.Login input{
+    padding: 15px;
+    border: 2px solid dodgerblue;
+    background: transparent;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 80%;
+    transition: all 0.2s ease-in-out;
+    }
+.Login input:hover{
+    box-shadow: 0 0 15px dodgerblue, inset 0 0 10px dodgerblue;
+    text-shadow: dodgerblue;
+}
+.Criar input{
+    padding: 15px;
+    border: 2px solid dodgerblue;
+    background: transparent;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 80%;
+    left: 15px;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+    }
+.Criar input:hover{
+    box-shadow: 0 0 15px dodgerblue, inset 0 0 10px dodgerblue;
+    text-shadow: dodgerblue;
+}
+.Btn2{
+        background: transparent;
+        border: 2px solid yellow;
+        padding: 15px;
+        width: 95%;
+        border-radius: 10px;
+        color: rgb(255, 255, 0);
+        font-size: 15px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+    }
+.Btn2:hover{
+    box-shadow: 0 0 15px yellow, inset 0 0 15px yellow;
+    text-shadow: 0 0 15px yellow;
+    }
+.Login i{
+        font-size: 25px;
+        cursor: pointer;
+        position: absolute;
+        right: 27%;
+        top: 220px;
+        color: dodgerblue;
+    }
+.Btn{
+    background: transparent;
+    border: 2px solid green;
+    border-radius: 15px;
+    padding: 15px;
+    width: 100%;
+    color: green;
+    }
+input .umasenha i{
+    font-size: 25px;
+    cursor: pointer;
+    position: absolute;
+    right: 25%;
+    top: 220px;
+    color: blue;
+    }
+.bi bi-chevron-double-left {
+        color: rgb(153, 0, 255);
+    }
+.BOTÃO{
+    background-color: #ffffff;
+    color: #fff;
+    border-radius: 15px;
+    padding: 10px 20px;
+    position: absolute;
+    border-radius: 15px;
+    border: none;
+    text-decoration: none;
+}
+.BOTÃO a {
+    text-decoration: none;
+    background-color: blueviolet;
+
+}
+.Login p a{
+    font-size: 18px;
+    color: aqua;
+    text-decoration: none;
+}
+.Login p {
+    font-size: 17px;
+    padding: 10px 20px;
+    position: relative;
+}
+.Login h1{
+    color: aqua;
+}
+.Btnsair {
+    background: transparent;
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 95%;
+    padding: 15px;
+    color: red;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    font-size: 15px;
+}
+.Btnsair:hover{
+    box-shadow: 0 0 15px red,inset 0 0 15px red ;
+    text-shadow: 0 0 15px red;
+
+}
+.Btnsair a {
+    text-decoration: none;
+    font-size: 15px;
+    color: red;
+}
+.buttonvoltar{
+    background: transparent;
+    border: 2px solid red;
+    width: 85%;
+    padding: 15px;
+    position: relative;
+    left: 10px;
+    color: red;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    border-radius: 10px;
+}
+.buttonvoltar a{
+    text-decoration: none;
+    font-size: 15px;
+    color: red;
+}
+.buttonvoltar:hover{
+    box-shadow: 0 0 15px red, inset 0 0 15px red;
+    text-shadow: red;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headerr{
+    background-color: #080808;
+    width: 100%;
+    padding: 10px;
+}
+.logo,.sociais{
+    width: 20%;
+}
+.logo img {
+    width: 100px;
+}
+.menu{
+    width: 70%;
+}
+.menu nav a{
+    color: #d9fffd;
+    text-decoration: none;
+    padding-right: 60px;
+    font-size: 20px;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.menu nav a::after{
+    content: " ";
+    width: 0px;
+    height: 4px;
+    background-image: linear-gradient(45deg, green, rgb(0, 255, 34));
+    border-radius: 10px;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    transition: width 0.8s;
+}
+.menu nav a:hover::after{
+    width: 30px;
+    text-shadow: blue;
+
+}
+.menu nav a:hover{
+    color: rgb(0, 201, 0);
+    text-shadow: 0 0 25px green;
+}
+.sociais button{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-image: linear-gradient(45deg, rgb(65, 255, 65), rgb(255, 67, 76), rgb(253, 80, 224));
+    background-size: 500% 100%;
+    animation: degrade-animado 5s infinite alternate;
+}
+.sociais button.ins{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid rgb(255, 95, 122);
+    cursor: pointer;
+    background-image: linear-gradient(45deg, yellow, rgb(255, 67, 76), rgb(253, 80, 224));
+    background-size: 500% 100%;
+    animation: degrade-animado 5s infinite alternate;
+}
+.sociais button.face{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid dodgerblue;
+    cursor: pointer;
+    background-image: linear-gradient(45deg, rgb(0, 198, 248), dodgerblue, rgb(16, 0, 247));
+    background-size: 500% 100%;
+    animation: degrade-animado 5s infinite alternate;
+}
+.sociais button.tt{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid rgb(43, 43, 43);
+    cursor: pointer;
+    background-image: linear-gradient(45deg, rgb(53, 53, 53), rgb(37, 37, 37),rgb(107, 107, 107));
+    background-size: 500% 100%;
+    animation: degrade-animado 5s infinite alternate;
+}
+.sociais button.tt i{
+    color: #ffffff;
+}
+.sociais button.face i {
+    color: #ffffff;
+}
+.sociais button.ins i{
+    color: #ffffff;
+}
+@keyframes degrade-animado{
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position-x: 100%;
+    }
+
+}
+.sociais button i{
+    font-size: 20px;
+    color:  rgb(17, 17, 17);
+}
+.perfil button{
+    width:  50px;
+    height: 50px;
+    border-radius: 30px;
+    background: transparent;
+    border: 2px solid rgb(0, 189, 72);
+    color: rgb(3, 224, 88);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.perfil button a{
+    text-decoration: none;
+
+}
+.perfil button:hover{
+   box-shadow: 0 0 15px rgb(3, 224, 88), inset 0 0 10px rgb(3, 224, 88);
+   text-shadow: 0 0 10px rgb(3, 224, 88);
+}
+.headerrr{
+    background-size: 500% 100%;
+    background-image: linear-gradient( 45deg, #3a6604, #486623, #65b307  );
+    padding: 3px;
+    width: 100%;
+    animation: degrade-animado 2s infinite alternate;
+}
+.flex {
+    display: flex;
+}
+section.comeco{
+    background-color: rgb(44, 44, 44);
+    padding: 40px 4%;
+    border: 2px solid #444444;
+}
+section.comeco .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+section.comeco .flex .txt-comeco h1{
+    color: #ffffff;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+section.comeco .flex .txt-comeco p{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+@keyframes flutuar {
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
+.comeco .img-comeco img{
+    position: relative;
+    animation: flutuar 2s  ease-in-out infinite alternate;
+}
+.comeco a{
+    text-decoration: none;
+    color: #00d9ff;
+
+}
+.flex-meio{
+    display: flex;
+}
+section.Meio{
+    background-color: rgb(44, 44, 44);
+    padding: 40px 4%;
+    border: 2px solid #202020;
+}
+section.Meio .flex-meio{
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+section.Meio .flex-meio .txt-comeco h1{
+    color: #ffffff;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+section.Meio .flex-meio .txt-meio p{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+.Meio .Img-meio img{
+    position: relative;
+    display: flex;
+    animation: flutuar 2s  ease-in-out infinite alternate;
+}
+.Meio a{
+    text-decoration: none;
+    color: #00d9ff;
+    
+}
+section.Meio .flex-meio .txt-meio h1{
+    color: #ffffff;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+section.Meio .flex-meio .txt-meio h1 samp.txt1{
+    color: dodgerblue;
+}
+section.Meio .flex-meio .txt-meio h1 samp.txt2{
+    color: rgb(64, 30, 255);
+}
+section.Meio .flex-meio .txt-meio p{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Comeco-jogos{
+    background-color: #202020;
+    padding: 313px 4%;
+
+}
+.flex-jogo{
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    border: 2px solid dodgerblue;
+    top: 55%;
+    left: 50%;
+    width: 50%;
+    transform: translate(-50%,-50%);
+    padding: 200px;
+    border-radius: 15px;
+    color: rgba(216, 216, 216, 0.705);
+}
+.flex-prof{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1d1d1d;
+    padding: 314px;
+}
+.foto-professore{
+    width: 208px;
+    height: 208px;
+    background-image: url(imagenss/Design\ sem\ nome\ \(1\).png);
+    background-size: cover;
+    background-position: 100% 0%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 4s ;
+}
+.foto-professore:hover{
+    background-position: 100% 100%;
+}
+.txt-prof{
+    background-color: #1d1d1d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.txt-prof h1{
+    color: #ffffff;
+    position: relative;
+    background: linear-gradient(45deg,rgb(255, 165, 232), rgb(146, 200, 255), rgb(72, 69, 255) );
+    background-size: 400% 100%;
+    animation: degrade-animado 2s infinite alternate;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.txt-prof h1 samp{
+    color: dodgerblue;
+}
+.David{
+    background-color: rgba(201, 201, 201, 0.6);
+    position: absolute;
+    border: 2px solid dodgerblue;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 50px;
+    border-radius: 40px;
+    color: white;
+    cursor: pointer;
+}
+.David .txt-David h1{
+    background: linear-gradient(45deg,rgb(255, 165, 232), rgb(80, 80, 80), rgb(61, 61, 61) );
+    background-size: 400% 100%;
+    position: relative;
+    left: 63px;
+    animation: degrade-animado 2s infinite alternate;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: cursive;
+}
+.David h1{
+    position: relative;
+    left: 63px;
+    color: #fff;
+    font-family: cursive;
+}
+.Tiago{
+    background-color: rgba(201, 201, 201, 0.6);
+    position: absolute;
+    border: 2px solid dodgerblue;
+    top: 50%;
+    right: 54%;
+    transform: translate(-50%,-50%);
+    padding: 50px;
+    border-radius: 40px;
+    color: white;
+    cursor: pointer;
+}
+.Tiago .txt-tiago h1{
+    background: linear-gradient(45deg,rgb(255, 165, 232), rgb(80, 80, 80), rgb(61, 61, 61) );
+    background-size: 400% 100%;
+    position: relative;
+    left: 63px;
+    animation: degrade-animado 2s infinite alternate;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: cursive;
+}
+.foto-prof-Tiago{
+    width: 208px;
+    height: 208px;
+    background-image: url(imagenss/Design\ sem\ nome\ \(1\).png);
+    background-size: cover;
+    background-position: 100% 0%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 4s ;
+}
+.foto-prof-Tiago:hover{
+    background-position: 100% 100%;
+}
+.Gleciane{
+    background-color: rgba(201, 201, 201, 0.6);
+    position: absolute;
+    border: 2px solid dodgerblue;
+    top: 50%;
+    left: 192%;
+    transform: translate(+50%,-50%);
+    padding: 50px;
+    border-radius: 40px;
+    color: white;
+    cursor: pointer;   
+}
+.Gleciane h1{
+    position: relative;
+    left: 43px;
+    color: #fff;
+    font-family: cursive;
+}
+.Gleciane .txt-Gleciane h1{
+    background: linear-gradient(45deg,rgb(255, 165, 232), rgb(80, 80, 80), rgb(61, 61, 61) );
+    background-size: 400% 100%;
+    position: relative;
+    left: 49px;
+    animation: degrade-animado 2s infinite alternate;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: cursive;
+}
+.foto-prof-Gleciane{
+    width: 208px;
+    height: 208px;
+    background-image: url(imagenss/Design\ sem\ nome\ \(1\).png);
+    background-size: cover;
+    background-position: 100% 0%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 4s ;
+}
+.foto-prof-Gleciane:hover{
+    background-position: 100% 100%;
+}
+.foto-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1d1d1d;
+    padding: 314px;
+}
+.foto-Odair{
+    width: 208px;
+    height: 208px;
+    background-image: url(imagenss/Design\ sem\ nome\ \(1\).png);
+    background-size: cover;
+    background-position: 100% 0%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 4s ;
+}
+.Odair h1{
+    background: linear-gradient(45deg,rgb(255, 165, 232), rgb(80, 80, 80), rgb(61, 61, 61) );
+    background-size: 400% 100%;
+    position: relative;
+    left: 63px;
+    animation: degrade-animado 2s infinite alternate;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: cursive;
+}
+.Odair{
+    background-color: rgba(201, 201, 201, 0.6);
+    position: absolute;
+    border: 2px solid dodgerblue;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 50px;
+    border-radius: 40px;
+    color: white;
+    cursor: pointer;
+    }
+.foto-Odair:hover{
+    background-position: 100% 100%;
+}
+.foto-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1d1d1d;
+    padding: 314px;
+}
+.foto-viviane{
+    width: 208px;
+    height: 208px;
+    background-image: url(imagenss/Design\ sem\ nome\ \(1\).png);
+    background-size: cover;
+    background-position: 100% 0%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 4s ;
+}
+.Viviane h1{
+    background: linear-gradient(45deg,rgb(255, 165, 232), rgb(80, 80, 80), rgb(61, 61, 61) );
+    background-size: 400% 100%;
+    position: relative;
+    left: 63px;
+    animation: degrade-animado 2s infinite alternate;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: cursive;
+}
+.Viviane{
+    background-color: rgba(201, 201, 201, 0.6);
+    position: absolute;
+    border: 2px solid dodgerblue;
+    top: 110%;
+    left: 26%;
+    transform: translate(-50%,-50%);
+    padding: 50px;
+    border-radius: 40px;
+    color: white;
+    cursor: pointer;
+    }
+.foto-viviane:hover{
+    background-position: 100% 100%;
+}
+::-webkit-scrollbar{
+    background: #1d1d1d;
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(0, 161, 62);
+    border-radius: 10px;
+    border: 2px solid rgb(0, 165, 63);
+}
+.flexxx{
+    background-color: #1d1d1d;
+    padding: 314px;
+    align-items: center;
+    justify-content: center;
+}
+.flex-musica{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 23%;
+    left: 40%;
+    width: 22%;
+    height: 73%;
+    justify-content: center;
+    background-color: #313030;
+    border-radius: 15px;
+    box-shadow: rgba( 0, 0, 0, 0.9) 0px 19px 38px, rgba( 0, 0, 0, 0.22) 0px 15px 12px;
+    border: 2px solid #f2ffc4
+}
+.flex-musica img{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    border: 1px solid rgba(128, 0, 0, 0.849);
+}
+.aumenta-volume-e-abaixa{
+    align-items: center;
+    display: flex;
+    background-color: #1d1d1d;
+    color: #fff;
+    top: 23%;
+    right: 23%;
+    border-radius: 10px;
+    border: 2px solid #000000;
+    box-shadow: rgba(0, 0, 0, 0.9) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    padding: 15px;
+}
+.Volume{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 5px;
+    background: #00d9ff;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+.aumenta-volume-e-abaixa
+.Volume::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #fff;
+    border: 2 solid dodgerblue;
+}
+
+.descricao{
+    width: 300px;
+}
+.descricao h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+.descricao i{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+}
+.duracao{
+    width: 300px;
+    padding: 15px;
+}
+.barra {
+    width: 300px;
+    height: 6px;
+    border: 1px solid #f1ffc0;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+progress{
+    height: 6px;
+    width: 0;
+    color: #edffad;
+}
+.ponto{
+    width: 20px;
+    height: 20px;
+    background-color: #eaf4ff;
+    border-radius: 50%;
+    margin-left: -10px;
+}
+.tempo{
+    display: flex;
+    width: 300px;
+    position: absolute;
+    top: 78%;
+    justify-content: space-between;
+    color: #fff;
+}
+.play{
+    width: 300px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+i.btnplay{
+    color: #fff;
+    font-size: 40px;
+    cursor: pointer;
+}
+i.btnpause{
+    cursor: pointer;
+    font-size: 40px;
+    color: #fff;
+    display: none;
+}
+i.setas{
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+}
+:root{
+    --color-neutral-0: #000;
+    --color-neutral-10: #0e0e0e;
+    --color-neutral-20: #3a3a3a;
+    --color-neutral-30: #dfdfdf;
+}
+footer{
+    font-family: 'Merriweather', serif;
+    letter-spacing: 1px;
+    width: 100%;
+    color: var(--color-neutral-20);
+}
+.txt-socias{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 200px;
+    border: 2px solid green;
+    padding-right: 60px;
+    background-color: #0e0e0e;
+    box-shadow: rgba(0, 0, 0, 0.9) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.txt-socias p{
+    color: #fff;
+    font-family: 'Merriweather', serif;
+    position: relative;
+    top: 45px;
+}
+.txt-socias img{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 145%;
+    left: 35px;
+}
+.cap{
+    border-radius: 10px;
+    background-color: #1d1d1d;
+    color: var(--color-neutral-30);
+    width: 10%;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    top: 1285px;
+    right: 45%;
+    border: 2px solid green;
+}
+.sociaiss button{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 140%;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-image: linear-gradient(45deg, rgb(65, 255, 65), rgb(255, 67, 76), rgb(253, 80, 224));
+    background-size: 500% 100%;
+    animation: degrade-animado 5s infinite alternate;
+}
+.sociaiss button.ins{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid rgb(255, 95, 122);
+    cursor: pointer;
+    background-image: linear-gradient(45deg, yellow, rgb(255, 67, 76), rgb(253, 80, 224));
+    background-size: 500% 100%;
+    animation: degrade-animado 5s infinite alternate;
+}
+.sociaiss button.face{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid dodgerblue;
+    cursor: pointer;
+    background-image: linear-gradient(45deg, rgb(0, 198, 248), dodgerblue, rgb(16, 0, 247));
+    background-size: 500% 100%;
+    animation: degrade-animado 5s infinite alternate;
+}
+.sociaiss button.tt{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid rgb(43, 43, 43);
+    cursor: pointer;
+    background-image: linear-gradient(45deg, rgb(53, 53, 53), rgb(37, 37, 37),rgb(107, 107, 107));
+    background-size: 500% 100%;
+    animation: degrade-animado 5s infinite alternate;
+}
+.sociaiss button.tt i{
+    color: #ffffff;
+}
+.sociaiss button.face i {
+    color: #ffffff;
+}
+.sociaiss button.ins i{
+    color: #ffffff;
+}
+.sociaiss button i{
+    font-size: 20px;
+    color:  rgb(17, 17, 17);
